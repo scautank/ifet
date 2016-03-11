@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@import '../../../common/sass/base';
+
+$revel: '../images/revel.gif';
+$iconListen: '../images/icon_listen.png';
+$iconListenHover: '../images/icon_listen_hover.png';
+
+.title {
+	margin: 10px;
+	padding-left: 20px;
+	background: url($revel) 0 center no-repeat;
+}
+
+.list {
+	margin-left: 10px;
+	
+	li {
+		margin-bottom: 10px;
+
+		i {
+			display: inline-block;
+			width: 13px;
+    		height: 13px;
+			margin-right: 8px;
+			vertical-align: middle;
+		}
+
+		.default {
+			background: url($iconListen) 0 center no-repeat;
+		}
+
+		.active {
+			background-image: url($iconListenHover);
+		}
+	}
+}
+

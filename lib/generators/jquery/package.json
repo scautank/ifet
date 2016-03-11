@@ -1,0 +1,13 @@
+{
+  "name": "jquery-generator",
+  "version": "1.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

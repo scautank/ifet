@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+@import '../common/base';
+
+$revel: '../../images/bell/revel.gif';
+$iconListen: '../../images/bell/icon/icon_listen.png';
+$iconListenHover: '../../images/bell/icon/icon_listen_hover.png';
+
+.title {
+	margin: 10px;
+	padding-left: 20px;
+	background: url($revel) 0 center no-repeat;
+}
+
+.list {
+	margin-left: 10px;
+	
+	li {
+		margin-bottom: 10px;
+
+		i {
+			display: inline-block;
+			width: 13px;
+			height: 13px;
+			margin-right: 8px;
+			vertical-align: middle;
+		}
+
+		.default {
+			background: url($iconListen) 0 0 no-repeat;
+		}
+
+		.active {
+			background: url($iconListenHover) 0 0 no-repeat;
+		}
+	}
+}
+

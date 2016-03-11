@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+@import '../common/base';
+
+$ppLogoIcon: '../../images/app/pp_logo.png';
+$ppIphoneIcon: '../../images/app/icon/icon_iphone.png';
+$ppIphoneIconHover: '../../images/app/icon/icon_iphone_hover.png';
+
+.title {
+	height: 50px;
+	margin: 10px;
+	padding-left: 60px;
+	line-height: 50px;
+	background: url($ppLogoIcon) 0 center no-repeat;
+}
+
+.list {
+	margin-left: 10px;
+
+	li {
+		margin-bottom: 10px;
+
+		i {
+			display: inline-block;
+			width: 16px;
+			height: 24px;
+			margin-right: 8px;
+			vertical-align: middle;
+		}
+
+		.default {
+			background: url($ppIphoneIcon) 0 0 no-repeat;
+		}
+
+		.active {
+			background: url($ppIphoneIconHover) 0 0 no-repeat;
+		}
+	}
+}
+
