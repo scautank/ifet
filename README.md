@@ -5,10 +5,13 @@ A FE Development tool.
 ----
 
 [![NPM version][npm-image]][npm-url]
+[![Build status][travis-image]][travis-url]
 [![Downloads][downloads-image]][downloads-url]
 
 [npm-image]: https://img.shields.io/npm/v/ifet.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/ifet
+[travis-image]: https://img.shields.io/travis/scautank/ifet.svg?style=flat-square
+[travis-url]: https://travis-ci.org/scautank/ifet
 [downloads-image]: http://img.shields.io/npm/dm/ifet.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/ifet
 
