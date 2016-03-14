@@ -1,14 +1,12 @@
 {
   "name": "ifet",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Integrated front-end tools",
   "main": "ifet.js",
   "bin": {
     "ifet": "./bin/ifet"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scautank/ifet.git"
@@ -43,6 +41,7 @@
     "koa": "~1.1.2",
     "koa-static": "~1.5.2",
     "node-sass": "~3.4.2",
+    "opn": "^4.0.1",
     "rimraf": "~2.4.4",
     "sass-loader": "~3.1.2",
     "style-loader": "~0.13.0",
