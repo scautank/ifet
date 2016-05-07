@@ -50,7 +50,7 @@ A FE Development tool.
 ### 构建
 
 ```bash
- ifet build --debug  // 加上debug参数会生成Source Map文件
+ ifet build --debug/--watch  // 加上debug参数会生成Source Map文件，watch参数会监控文件变化重新执行build操作
 ```
 
 ### 测试

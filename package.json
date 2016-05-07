@@ -1,6 +1,6 @@
 {
   "name": "ifet",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Integrated front-end tools",
   "main": "ifet.js",
   "bin": {

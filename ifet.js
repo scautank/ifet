@@ -43,15 +43,17 @@ fetool.run = function(argv) {
             });
         });
 
-    // ifet build --debug
+    // ifet build --debug/--watch
     commander
         .command('build')
         .description('build project')
         .option('--debug', 'create source map files')
+        .option('--watch', 'watch files change')
         .action(function(options) {
             runner({
                 cmd: 'build',
-                debug: !!options.debug
+                debug: !!options.debug,
+                watch: !!options.watch
             });
         });
 
